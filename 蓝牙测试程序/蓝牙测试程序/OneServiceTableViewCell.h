@@ -1,0 +1,14 @@
+//
+//  OneServiceTableViewCell.h
+//  蓝牙测试程序
+//
+//  Created by jmg-mac 0sx on 16/5/11.
+//  Copyright © 2016年 liming. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface OneServiceTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *chatactName;
+@property (weak, nonatomic) IBOutlet UILabel *uuid;
+@end
